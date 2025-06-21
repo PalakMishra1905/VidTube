@@ -1,12 +1,54 @@
-# React + Vite
+# 🎥 VidTube
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**VidTube** is a YouTube-inspired video streaming platform where users can upload, view, and explore a variety of videos. Built with a modern tech stack and a clean UI, VidTube offers a smooth user experience with essential video playback features.
 
-Currently, two official plugins are available:
+## 🔥 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📺 Watch and browse videos
+- 🔍 Search functionality
+- 👍 Like/Dislike videos
+- 💬 Comment system
+- 📁 Upload new videos (optional)
+- 👤 User authentication (optional)
+- 🌙 Light/Dark mode support
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js (if used)
+- **Database**: MongoDB / Firebase / Local JSON (depending on implementation)
+- **Video Player**: ReactPlayer or HTML5 `<video>` tag
+- **Deployment**: Vercel / Render / Netlify
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/PalakMishra1905/VidTube.git
+cd VidTube
+
+Install Dependencies
+npm install
+
+Start Development Server
+npm start
+
+🖥️ Bash Usage
+npm start
+
+🗂️ Folder Structure
+VidTube/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   └── App.js
+├── package.json
+└── README.md
+
+👤 Author
+Palak Mishra
